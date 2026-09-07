@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Vinit Tharwani</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Vinit Tharwani</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Seedling Example</title>
+				<link>http://localhost:1313/content/notes/seedling-example/</link>
+				<pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/seedling-example/</guid>
+				<description>What a half-formed thought looks like in Kavu — published anyway, marked as a seedling.</description>
+			</item>
+			<item>
+				<title>How Wikilinks Work</title>
+				<link>http://localhost:1313/content/notes/how-wikilinks-work/</link>
+				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/how-wikilinks-work/</guid>
+				<description>Internal links between notes render with [[bracket]] markers. Use absolute /notes/slug/ paths so the resolver finds the target every time.</description>
+			</item>
+			<item>
+				<title>Note Maturity Stages</title>
+				<link>http://localhost:1313/content/notes/note-maturity-stages/</link>
+				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/note-maturity-stages/</guid>
+				<description>Kavu uses three labels — seeding, growing, evergreen — to mark how mature a note is. Lower the bar for publishing; raise it for promotion.</description>
+			</item>
+			<item>
+				<title>Welcome to Kavu</title>
+				<link>http://localhost:1313/content/notes/welcome-to-kavu/</link>
+				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/welcome-to-kavu/</guid>
+				<description>What this theme does, what to look at, and where to go next.</description>
+			</item>
+			<item>
+				<title>What Is a Digital Garden</title>
+				<link>http://localhost:1313/content/notes/what-is-a-digital-garden/</link>
+				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/what-is-a-digital-garden/</guid>
+				<description>A digital garden is a personal site organised by ideas and links rather than by dates. Notes grow over time.</description>
+			</item>
+	</channel>
+</rss>

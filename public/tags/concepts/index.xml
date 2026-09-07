@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Concepts on Vinit Tharwani</title>
+		<link>http://localhost:1313/tags/concepts/</link>
+		<description>Recent content in Concepts on Vinit Tharwani</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 26 Apr 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/concepts/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>What Is a Digital Garden</title>
+				<link>http://localhost:1313/content/notes/what-is-a-digital-garden/</link>
+				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/content/notes/what-is-a-digital-garden/</guid>
+				<description>A digital garden is a personal site organised by ideas and links rather than by dates. Notes grow over time.</description>
+			</item>
+	</channel>
+</rss>
