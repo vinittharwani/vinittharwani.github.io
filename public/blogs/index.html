@@ -7,7 +7,7 @@
     
     
     
-    <title>Vinit Tharwani | Tags</title>
+    <title>Vinit Tharwani | Blogs</title>
 
     
     
@@ -16,7 +16,7 @@
     <meta name="description" content="A demo digital garden built with the Kavu Hugo theme.">
 
     
-    <link rel="canonical" href="http://localhost:1313/tags/">
+    <link rel="canonical" href="http://localhost:1313/blogs/">
 
     
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -51,10 +51,10 @@
 
 <meta property="og:site_name" content="Vinit Tharwani" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:title" content="Tags" />
+<meta property="og:title" content="Blogs" />
 <meta property="og:description" content="A demo digital garden built with the Kavu Hugo theme." />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/tags/" />
+<meta property="og:url" content="http://localhost:1313/blogs/" />
 
 
 
@@ -75,14 +75,14 @@
 
 <meta name="twitter:card" content="summary_large_image" />
 
-<meta name="twitter:title" content="Tags" />
+<meta name="twitter:title" content="Blogs" />
 <meta name="twitter:description" content="A demo digital garden built with the Kavu Hugo theme." />
 
 
 
     
     
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="Vinit Tharwani">
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/blogs/index.xml" title="Vinit Tharwani">
     
 
     
@@ -117,7 +117,7 @@
                 </li>
             
                 <li style="margin: 0;">
-                    <a href="/blogs/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">Blogs</a>
+                    <a href="/blogs/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary); color: var(--accent); font-weight: 700; border-bottom: 2px solid var(--accent); padding-bottom: 2px;">Blogs</a>
                 </li>
             
                 <li style="margin: 0;">
@@ -138,95 +138,57 @@
 </nav>
 
 <div id="content">
-<div class="container">
-    
-    
-    <a href="/notes/" class="back-link">← Notes</a>
-    
-    
-    <h1>Tags</h1>
-    
-    
-    <div class="metadata">
-        Tags: 9 notes
+<div class="tag-page">
+
+    <header class="tag-header">
+        <a href="/notes/" class="note-back">&larr; Notes</a>
+        <h1 class="tag-title">
+            
+            Blogs
+            
+        </h1>
+        
+    </header>
+
+    <div class="tag-notes-controls">
+        <div class="tag-notes-sort">
+            <button class="sort-btn active" data-sort="recent">Recent</button>
+            <button class="sort-btn" data-sort="alpha">A-Z</button>
+            <button class="sort-btn" data-sort="status">Status</button>
+        </div>
     </div>
 
-    
-    <ul class="recent-list">
-        
-        <li>
-            <a href="/tags/example/">Example</a>
-            <div class="recent-meta">
-                2026-04-27
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/kavu/">Kavu</a>
-            <div class="recent-meta">
-                2026-04-27
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/digital-garden/">Digital-Garden</a>
-            <div class="recent-meta">
-                2026-04-23
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/linking/">Linking</a>
-            <div class="recent-meta">
-                2026-04-23
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/process/">Process</a>
-            <div class="recent-meta">
-                2026-04-23
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/writing/">Writing</a>
-            <div class="recent-meta">
-                2026-04-23
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/concepts/">Concepts</a>
-            <div class="recent-meta">
-                2026-04-22
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/getting-started/">Getting-Started</a>
-            <div class="recent-meta">
-                2026-04-22
-                
-            </div>
-        </li>
-        
-        <li>
-            <a href="/tags/meta/">Meta</a>
-            <div class="recent-meta">
-                2026-04-22
-                
-            </div>
-        </li>
+    <ul class="tag-notes-list" id="tag-notes-list">
         
     </ul>
+    
+    
+
+    
+
+    <script>
+    (function() {
+        const list = document.getElementById('tag-notes-list');
+        const items = Array.from(list.querySelectorAll('.tag-note-item'));
+        const sortBtns = document.querySelectorAll('.sort-btn');
+        const statusOrder = { evergreen: 0, growing: 1, seeding: 2 };
+        sortBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                sortBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                const mode = btn.dataset.sort;
+                const sorted = [...items].sort((a, b) => {
+                    if (mode === 'alpha') return a.dataset.title.localeCompare(b.dataset.title);
+                    if (mode === 'recent') return b.dataset.date.localeCompare(a.dataset.date);
+                    if (mode === 'status') return (statusOrder[a.dataset.status] || 2) - (statusOrder[b.dataset.status] || 2);
+                    return 0;
+                });
+                sorted.forEach(item => list.appendChild(item));
+            });
+        });
+    })();
+    </script>
+    
 
 </div>
 

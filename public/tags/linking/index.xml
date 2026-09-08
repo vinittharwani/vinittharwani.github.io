@@ -15,9 +15,9 @@
 			<atom:link href="http://localhost:1313/tags/linking/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>How Wikilinks Work</title>
-				<link>http://localhost:1313/content/notes/how-wikilinks-work/</link>
+				<link>http://localhost:1313/notes/how-wikilinks-work/</link>
 				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/how-wikilinks-work/</guid>
+				<guid>http://localhost:1313/notes/how-wikilinks-work/</guid>
 				<description>Internal links between notes render with [[bracket]] markers. Use absolute /notes/slug/ paths so the resolver finds the target every time.</description>
 			</item>
 	</channel>

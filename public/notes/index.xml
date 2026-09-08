@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Home on Vinit Tharwani</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content in Home on Vinit Tharwani</description>
+		<title>Notes on Vinit Tharwani</title>
+		<link>http://localhost:1313/notes/</link>
+		<description>Recent content in Notes on Vinit Tharwani</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Tue, 28 Apr 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Seedling Example</title>
 				<link>http://localhost:1313/notes/seedling-example/</link>

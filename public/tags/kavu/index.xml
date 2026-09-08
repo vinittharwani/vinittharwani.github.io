@@ -15,23 +15,23 @@
 			<atom:link href="http://localhost:1313/tags/kavu/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Seedling Example</title>
-				<link>http://localhost:1313/content/notes/seedling-example/</link>
+				<link>http://localhost:1313/notes/seedling-example/</link>
 				<pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/seedling-example/</guid>
+				<guid>http://localhost:1313/notes/seedling-example/</guid>
 				<description>What a half-formed thought looks like in Kavu — published anyway, marked as a seedling.</description>
 			</item>
 			<item>
 				<title>How Wikilinks Work</title>
-				<link>http://localhost:1313/content/notes/how-wikilinks-work/</link>
+				<link>http://localhost:1313/notes/how-wikilinks-work/</link>
 				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/how-wikilinks-work/</guid>
+				<guid>http://localhost:1313/notes/how-wikilinks-work/</guid>
 				<description>Internal links between notes render with [[bracket]] markers. Use absolute /notes/slug/ paths so the resolver finds the target every time.</description>
 			</item>
 			<item>
 				<title>Welcome to Kavu</title>
-				<link>http://localhost:1313/content/notes/welcome-to-kavu/</link>
+				<link>http://localhost:1313/notes/welcome-to-kavu/</link>
 				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/welcome-to-kavu/</guid>
+				<guid>http://localhost:1313/notes/welcome-to-kavu/</guid>
 				<description>What this theme does, what to look at, and where to go next.</description>
 			</item>
 	</channel>

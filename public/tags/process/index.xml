@@ -15,9 +15,9 @@
 			<atom:link href="http://localhost:1313/tags/process/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Note Maturity Stages</title>
-				<link>http://localhost:1313/content/notes/note-maturity-stages/</link>
+				<link>http://localhost:1313/notes/note-maturity-stages/</link>
 				<pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/note-maturity-stages/</guid>
+				<guid>http://localhost:1313/notes/note-maturity-stages/</guid>
 				<description>Kavu uses three labels — seeding, growing, evergreen — to mark how mature a note is. Lower the bar for publishing; raise it for promotion.</description>
 			</item>
 	</channel>

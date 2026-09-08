@@ -41,11 +41,30 @@ theme = "kavu"
 
 
 [menu]
-  [[menu.main]]
-    name = "notes"
+    [[menu.main]]
+    name = "Notes"
     url = "/notes/"
     weight = 1
 
+    [[menu.main]]
+    name = "Blogs"
+    url = "/blogs/"
+    weight = 2
+
+    [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+    [[menu.main]]
+    name = "Bookshelf"
+    url = "/bookshelf/"
+    weight = 4
+
+    [[menu.main]]
+    name = "Papershelf"
+    url = "/papershelf/"
+    weight = 5
 
 [taxonomies]
   tag = "tags"

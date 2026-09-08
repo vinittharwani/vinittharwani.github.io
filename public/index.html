@@ -143,7 +143,23 @@
         <ul style="display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; align-items: center;">
             
                 <li style="margin: 0;">
-                    <a href="/notes/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">notes</a>
+                    <a href="/notes/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">Notes</a>
+                </li>
+            
+                <li style="margin: 0;">
+                    <a href="/blogs/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">Blogs</a>
+                </li>
+            
+                <li style="margin: 0;">
+                    <a href="/about/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">About</a>
+                </li>
+            
+                <li style="margin: 0;">
+                    <a href="/bookshelf/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">Bookshelf</a>
+                </li>
+            
+                <li style="margin: 0;">
+                    <a href="/papershelf/" style="border-bottom: none; font-family: var(--font-body); font-size: 0.9rem; color: var(--text-primary);">Papershelf</a>
                 </li>
             
         </ul>
@@ -153,6 +169,13 @@
 
 <div id="content"><div class="garden-home"><header class="garden-hero">
     <div class="garden-hero-content">
+      
+      <div class="garden-intro">
+        <p>Welcome. This is a <span class="wikilink-bracket">[[</span><a href="/notes/what-is-a-digital-garden/" >digital garden</a><span class="wikilink-bracket">]]</span> — a collection of notes, ideas, and explorations that grow over time. Unlike blog posts ordered by dates, this is an interlinked web of living documents.</p>
+<p>This particular garden is the demo site for <strong><a href="https://github.com/stultus/kavu"  target="_blank" rel="noopener">Kavu</a></strong>, a Hugo theme for digital gardens. The notes you see are short examples; replace them with your own. Each note carries a maturity badge — 🌱 seedling, 🌿 growing, or 🌳 evergreen — so readers can tell at a glance whether they&rsquo;re reading a half-formed thought or something stable.</p>
+<p>Start anywhere and follow the links.</p>
+
+      </div>
       
     </div>
 
@@ -185,7 +208,7 @@
       </div>
     </div><script>
       document.getElementById('random-note').addEventListener('click', function() {
-        var urls = ["\/content\/notes\/seedling-example\/","\/content\/notes\/how-wikilinks-work\/","\/content\/notes\/note-maturity-stages\/","\/content\/notes\/welcome-to-kavu\/","\/content\/notes\/what-is-a-digital-garden\/",];
+        var urls = ["\/notes\/seedling-example\/","\/notes\/how-wikilinks-work\/","\/notes\/note-maturity-stages\/","\/notes\/welcome-to-kavu\/","\/notes\/what-is-a-digital-garden\/",];
         window.location.href = urls[Math.floor(Math.random() * urls.length)];
       });
     </script>
@@ -196,7 +219,7 @@
       </h2>
       <ul class="garden-list">
         <li class="garden-list-item">
-          <a href="/content/notes/welcome-to-kavu/" class="garden-list-link">
+          <a href="/notes/welcome-to-kavu/" class="garden-list-link">
             <span class="garden-list-title">Welcome to Kavu</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-evergreen"></span>
@@ -205,7 +228,7 @@
           </a>
         </li>
         <li class="garden-list-item">
-          <a href="/content/notes/seedling-example/" class="garden-list-link">
+          <a href="/notes/seedling-example/" class="garden-list-link">
             <span class="garden-list-title">Seedling Example</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-seeding"></span>
@@ -214,7 +237,7 @@
           </a>
         </li>
         <li class="garden-list-item">
-          <a href="/content/notes/what-is-a-digital-garden/" class="garden-list-link">
+          <a href="/notes/what-is-a-digital-garden/" class="garden-list-link">
             <span class="garden-list-title">What Is a Digital Garden</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-evergreen"></span>
@@ -223,7 +246,7 @@
           </a>
         </li>
         <li class="garden-list-item">
-          <a href="/content/notes/how-wikilinks-work/" class="garden-list-link">
+          <a href="/notes/how-wikilinks-work/" class="garden-list-link">
             <span class="garden-list-title">How Wikilinks Work</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-growing"></span>
@@ -232,7 +255,7 @@
           </a>
         </li>
         <li class="garden-list-item">
-          <a href="/content/notes/note-maturity-stages/" class="garden-list-link">
+          <a href="/notes/note-maturity-stages/" class="garden-list-link">
             <span class="garden-list-title">Note Maturity Stages</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-growing"></span>
@@ -248,7 +271,7 @@
         <span class="section-icon">*</span> Most Connected
       </h2>
       <ul class="garden-list"><li class="garden-list-item">
-          <a href="/content/notes/note-maturity-stages/" class="garden-list-link">
+          <a href="/notes/note-maturity-stages/" class="garden-list-link">
             <span class="garden-list-title">Note Maturity Stages</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-growing"></span>
@@ -256,7 +279,7 @@
             </span>
           </a>
         </li><li class="garden-list-item">
-          <a href="/content/notes/what-is-a-digital-garden/" class="garden-list-link">
+          <a href="/notes/what-is-a-digital-garden/" class="garden-list-link">
             <span class="garden-list-title">What Is a Digital Garden</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-evergreen"></span>
@@ -264,7 +287,7 @@
             </span>
           </a>
         </li><li class="garden-list-item">
-          <a href="/content/notes/seedling-example/" class="garden-list-link">
+          <a href="/notes/seedling-example/" class="garden-list-link">
             <span class="garden-list-title">Seedling Example</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-seeding"></span>
@@ -272,7 +295,7 @@
             </span>
           </a>
         </li><li class="garden-list-item">
-          <a href="/content/notes/how-wikilinks-work/" class="garden-list-link">
+          <a href="/notes/how-wikilinks-work/" class="garden-list-link">
             <span class="garden-list-title">How Wikilinks Work</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-growing"></span>
@@ -280,7 +303,7 @@
             </span>
           </a>
         </li><li class="garden-list-item">
-          <a href="/content/notes/welcome-to-kavu/" class="garden-list-link">
+          <a href="/notes/welcome-to-kavu/" class="garden-list-link">
             <span class="garden-list-title">Welcome to Kavu</span>
             <span class="garden-list-meta">
               <span class="status-dot status-dot-evergreen"></span>
@@ -872,19 +895,19 @@
         </summary>
         <ul class="topic-card-list">
           <li>
-            <a href="/content/notes/how-wikilinks-work/">
+            <a href="/notes/how-wikilinks-work/">
               <span class="status-dot status-dot-growing"></span>
               How Wikilinks Work
             </a>
           </li>
           <li>
-            <a href="/content/notes/note-maturity-stages/">
+            <a href="/notes/note-maturity-stages/">
               <span class="status-dot status-dot-growing"></span>
               Note Maturity Stages
             </a>
           </li>
           <li>
-            <a href="/content/notes/what-is-a-digital-garden/">
+            <a href="/notes/what-is-a-digital-garden/">
               <span class="status-dot status-dot-evergreen"></span>
               What Is a Digital Garden
             </a>
@@ -910,7 +933,7 @@
           data-title="how wikilinks work"
           data-date="2026-04-24T00:00:00"
           data-status="growing">
-        <a href="/content/notes/how-wikilinks-work/">
+        <a href="/notes/how-wikilinks-work/">
           <span class="status-dot status-dot-growing"></span>
           <span class="all-note-title">How Wikilinks Work</span>
         </a>
@@ -920,7 +943,7 @@
           data-title="note maturity stages"
           data-date="2026-04-23T00:00:00"
           data-status="growing">
-        <a href="/content/notes/note-maturity-stages/">
+        <a href="/notes/note-maturity-stages/">
           <span class="status-dot status-dot-growing"></span>
           <span class="all-note-title">Note Maturity Stages</span>
         </a>
@@ -930,7 +953,7 @@
           data-title="seedling example"
           data-date="2026-04-27T00:00:00"
           data-status="seeding">
-        <a href="/content/notes/seedling-example/">
+        <a href="/notes/seedling-example/">
           <span class="status-dot status-dot-seeding"></span>
           <span class="all-note-title">Seedling Example</span>
         </a>
@@ -940,7 +963,7 @@
           data-title="welcome to kavu"
           data-date="2026-04-28T00:00:00"
           data-status="evergreen">
-        <a href="/content/notes/welcome-to-kavu/">
+        <a href="/notes/welcome-to-kavu/">
           <span class="status-dot status-dot-evergreen"></span>
           <span class="all-note-title">Welcome to Kavu</span>
         </a>
@@ -950,7 +973,7 @@
           data-title="what is a digital garden"
           data-date="2026-04-26T00:00:00"
           data-status="evergreen">
-        <a href="/content/notes/what-is-a-digital-garden/">
+        <a href="/notes/what-is-a-digital-garden/">
           <span class="status-dot status-dot-evergreen"></span>
           <span class="all-note-title">What Is a Digital Garden</span>
         </a>

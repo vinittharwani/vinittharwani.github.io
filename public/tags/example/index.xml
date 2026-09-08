@@ -15,9 +15,9 @@
 			<atom:link href="http://localhost:1313/tags/example/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Seedling Example</title>
-				<link>http://localhost:1313/content/notes/seedling-example/</link>
+				<link>http://localhost:1313/notes/seedling-example/</link>
 				<pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/seedling-example/</guid>
+				<guid>http://localhost:1313/notes/seedling-example/</guid>
 				<description>What a half-formed thought looks like in Kavu — published anyway, marked as a seedling.</description>
 			</item>
 	</channel>

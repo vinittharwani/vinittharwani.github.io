@@ -15,9 +15,9 @@
 			<atom:link href="http://localhost:1313/tags/meta/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Welcome to Kavu</title>
-				<link>http://localhost:1313/content/notes/welcome-to-kavu/</link>
+				<link>http://localhost:1313/notes/welcome-to-kavu/</link>
 				<pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/content/notes/welcome-to-kavu/</guid>
+				<guid>http://localhost:1313/notes/welcome-to-kavu/</guid>
 				<description>What this theme does, what to look at, and where to go next.</description>
 			</item>
 	</channel>
