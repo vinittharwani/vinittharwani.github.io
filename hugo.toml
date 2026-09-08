@@ -52,14 +52,19 @@ theme = "kavu"
     weight = 2
 
     [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Projects"
+    url = "/projects/"
     weight = 3
 
     [[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf/"
     weight = 4
+
+    [[menu.main]]
+    name = "Papershelf"
+    url = "/papershelf/"
+    weight = 5
 
 
 [taxonomies]
