@@ -32,8 +32,16 @@ theme = "kavu"
 
   # heroLinks render in the hero sidebar next to the Random Note button.
   [[params.heroLinks]]
-    name = "Vinit Tharwani"
-    url = "/personalspace"
+    name = "/Blogs/"
+    url = "/blogs/"
+
+  [[params.heroLinks]]
+    name = "/Projects/"
+    url = "/projects/"
+
+    [[params.heroLinks]]
+    name = "/Contact/"
+    url = "/contact/"
 
   # [[params.footerLinks]]
   #   name = "About"
@@ -71,7 +79,11 @@ theme = "kavu"
     url = "/contact/"
     weight = 6
 
-
+    [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 7
+    
 [taxonomies]
   tag = "tags"
 
