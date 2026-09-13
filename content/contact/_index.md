@@ -3,7 +3,7 @@ title: "Contact"
 draft: false.
 ---
 
--[Email Me](https://mail.google.com/mail/contactvinitt@gmail.com)
+-[Email Me](https://mail.google.com/mail/?view=cm&fs=1&to=contactvinitt@gmail.com)
 
 -[Twitter/X](https://x.com/vinittharwani)
 
