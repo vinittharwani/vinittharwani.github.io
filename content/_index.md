@@ -2,13 +2,13 @@
 title: "Home"
 ---
 
+**Software Engineer**
 
-Software Engineer.
----
+
 Currently Exploring Deep Learning and Systems Programming.
----
----
-Future Research Interest.
----
+
+
+**Future Research Interest**
+
+
 Solving Diseases and Disorders with help of Computer Science and Artificial Intelligence.
----

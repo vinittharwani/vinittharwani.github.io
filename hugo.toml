@@ -1,92 +1,61 @@
 baseURL = 'https://vinittharwani.github.io/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'Vinit Tharwani'
-theme = "kavu"
+theme = "congo"
 
 [params]
+  colorScheme = "congo"
+  defaultAppearance = "light"
+
+[params.author]
   name = "Vinit Tharwani"
-  description = "Personal Space"
-  initials = "kavu"
-  googleAnalytics = ""
-
-  # Kavu theme params (all optional — the theme renders cleanly without
-  # any of these set. They are listed here to show what's available;
-  # replace the example values with your own).
-  author = "Vinit Tharwani"
-  authorURL = "https://example.org/"
-  tagline = "Personal Space"
-  # twitterHandle = "@your-handle"
-  # defaultOgImage = "/img/og-cover.png"
-  # keywords = ["digital garden", "notes"]
-  # locale = "en_US"
-  # headerLogoURL = "https://example.org/"
-  # headerBrandText = "your name"
-  # headerLogoLight = "img/logo-light.png"
-  # headerLogoDark  = "img/logo-dark.png"
-  # hideThemeCredit = true   # set to true to hide the "Built with Kavu" footer line
-
-  # [[params.social]]
-  #   name = "GitHub"
-  #   link = "https://github.com/your-username"
-  #   icon = "fab fa-github"
-
-  # heroLinks render in the hero sidebar next to the Random Note button.
-  [[params.heroLinks]]
-    name = "/Blogs/"
-    url = "/blogs/"
-
-  [[params.heroLinks]]
-    name = "/Projects/"
-    url = "/projects/"
-
-    [[params.heroLinks]]
-    name = "/Contact/"
-    url = "/contact/"
-
-  # [[params.footerLinks]]
-  #   name = "About"
-  #   url = "/about/"
-
+  headline = "Software Engineer"
+  bio = "Currently exploring Deep Learning and Systems Programming."
+  links = [
+    { X = "https://x.com/vinittharwani" },
+    { Newsletter = "https://vinittharwani.substack.com" },
+    { YouTube = "https://youtube.com/@vinittharwani" },
+    { "Discord Server" = "https://discord.gg/KJWHpUuFJQ" },
+  ]
 
 [menu]
-    [[menu.main]]
+  [[menu.main]]
     name = "Notes"
     url = "/notes/"
     weight = 1
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Blogs"
     url = "/blogs/"
     weight = 2
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Projects"
     url = "/projects/"
     weight = 3
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Bookshelf"
     url = "/bookshelf/"
     weight = 4
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Papershelf"
     url = "/papershelf/"
     weight = 5
 
-    [[menu.main]]
+  [[menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 6
 
-    [[menu.main]]
+  [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 7
-    
+
 [taxonomies]
   tag = "tags"
-
 
 [markup]
   defaultMarkdownHandler = 'goldmark'
