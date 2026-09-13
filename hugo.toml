@@ -4,17 +4,17 @@ title = 'Vinit Tharwani'
 theme = "kavu"
 
 [params]
-  name = "Example Gardener"
-  description = "A demo digital garden built with the Kavu Hugo theme."
+  name = "Vinit Tharwani"
+  description = "Personal Space"
   initials = "kavu"
   googleAnalytics = ""
 
   # Kavu theme params (all optional — the theme renders cleanly without
   # any of these set. They are listed here to show what's available;
   # replace the example values with your own).
-  author = "Example Gardener"
+  author = "Vinit Tharwani"
   authorURL = "https://example.org/"
-  tagline = "A demo digital garden"
+  tagline = "Personal Space"
   # twitterHandle = "@your-handle"
   # defaultOgImage = "/img/og-cover.png"
   # keywords = ["digital garden", "notes"]
@@ -32,8 +32,8 @@ theme = "kavu"
 
   # heroLinks render in the hero sidebar next to the Random Note button.
   [[params.heroLinks]]
-    name = "What is a digital garden?"
-    url = "/notes/what-is-a-digital-garden/"
+    name = "Vinit Tharwani"
+    url = "/personalspace"
 
   # [[params.footerLinks]]
   #   name = "About"
