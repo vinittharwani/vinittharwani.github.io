@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Vinit Tharwani"
 ---
 
 **Software Engineer**

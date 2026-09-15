@@ -2,28 +2,20 @@
 title: "About"
 ---
 
-Socials.
+Contact
 
--[Gmail](mailto:contactvinitt@gmail.com)
+[[Gmail]](mailto:contactvinitt@gmail.com)
+[[Substack]](https://substack.com/@vinittharwani)
+[[YouTube]](https://youtube.com/@vinittharwani)
+[[Twitter]](https://twitter.com/vinittharwani)
+[[Discord]](https://discord.com/users/1514238633618702338)
 
--[Twitter](https://x.com/vinittharwani)
 
--[Substack](https://vinittharwani.substack.com)
+Proof of work
 
--[YouTube](https://youtube.com/@vinittharwani)
-
--[Discord](https://x.com/vinittharwani)
-
-Proof of work.
-
--[HuggingFace]
-
--[AlphaXiv]
-
--[Scholar]
-
--[Kaggle](https://kaggle.com/vinittharwani)
-
--[GitHub](https://github.com/vinittharwani)
+[[Google Scholar]](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)
+[[Hugging Face]](https://huggingface.co/vinittharwani)
+[[Kaggle]](https://kaggle.com/vinittharwani)
+[[GitHub]](https://github.com/vinittharwani)
 
 
