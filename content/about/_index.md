@@ -16,10 +16,14 @@ Socials.
 
 Proof of work.
 
--[GitHub](https://github.com/vinittharwani)
+-[HuggingFace]
+
+-[AlphaXiv]
+
+-[Scholar]
 
 -[Kaggle](https://kaggle.com/vinittharwani)
 
--[Codeforces](https://codeforces.com/profile/vinittharwani)
+-[GitHub](https://github.com/vinittharwani)
 
 
