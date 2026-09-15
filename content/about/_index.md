@@ -11,9 +11,9 @@ title: "About"
 [[Twitter]](https://twitter.com/vinittharwani)
 [[Discord]](https://discord.com/users/1514238633618702338)
 
-
-[[Google Scholar]](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)
 [[Hugging Face]](https://huggingface.co/vinittharwani)
 [[Kaggle]](https://kaggle.com/vinittharwani)
+
+[[Google Scholar]](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)
 [[GitHub]](https://github.com/vinittharwani)
 
