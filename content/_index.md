@@ -1,14 +1,14 @@
----
-title: "Vinit Tharwani"
----
+**Software Engineer**  
+Currently Exploring Multimodal Models and Representation Learning.
 
-**Software Engineer**
+**Future Research Interest**  
+Computational Neuroscience and Neuroprosthetics.
 
+**Links** :  
+[[ Google Scholar ]](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)
+[[ Hugging Face ]](https://huggingface.co/vinittharwani)
+[[ Kaggle ]](https://kaggle.com/vinittharwani)  
+[[ GitHub ]](https://github.com/vinittharwani)
+[[ Codeforces ]](https://codeforces.com/profile/vinittharwani)
 
-Currently Exploring Deep Learning and Systems Programming.
-
-
-**Future Research Interest**
-
-
-Solving Diseases and Disorders with help of Computer Science and Artificial Intelligence.
+**Mail** : [[ contactvinitt@gmail.com ]](mailto:contactvinitt@gmail.com)
