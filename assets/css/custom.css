@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background: #fdfcf9;
+}
+html, body {
+  min-height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+{
+  color-scheme: light;
+  font-family: "Newsreader", "Iowan Old Style", Charter, Georgia, serif;
+  font-weight: 300;  
+  color: #292824;
+  font-synthesis: none;
+}

@@ -6,6 +6,7 @@ theme = "congo"
 [params]
   colorScheme = "congo"
   defaultAppearance = "light"
+  autoSwitchAppearance = false  
 
 [params.author]
   name = "vinit tharwani"
