@@ -5,11 +5,10 @@ Currently Exploring Multimodal Models and Representation Learning.
 Computational Neuroscience and Neuroprosthetics.
 
 **Links** :  
-[ Twitter ](https://github.com/vinittharwani)
-[ GitHub ](https://github.com/vinittharwani)  
-[ Scholar ](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)
-[ Hugging Face ](https://huggingface.co/vinittharwani)  
-[ Kaggle ](https://kaggle.com/vinittharwani)
-[ Codeforces ](https://codeforces.com/profile/vinittharwani)
+[(Twitter)](https://github.com/vinittharwani)
+[(Google Scholar) ](https://scholar.google.com/citations?user=3eiTd3IAAAAJ&hl=en)  
+[(GitHub) ](https://github.com/vinittharwani)
+[(Hugging Face) ](https://huggingface.co/vinittharwani)
 
-**Mail** : [ contactvinitt@gmail.com ](mailto:contactvinitt@gmail.com)
+
+**Mail** : [contactvinitt@gmail.com](mailto:contactvinitt@gmail.com)
