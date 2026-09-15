@@ -8,6 +8,7 @@ title: "About"
 
 [[ Substack ]](https://substack.com/@vinittharwani)
 [[ YouTube ]](https://youtube.com/@vinittharwani)
+
 [[ Twitter ]](https://twitter.com/vinittharwani)
 [[ Discord ]](https://discord.com/users/1514238633618702338)
 
