@@ -1,6 +1,6 @@
 baseURL = 'https://vinittharwani.github.io/'
 languageCode = 'en-us'
-title = 'vinit tharwani'
+title = 'Vinit Tharwani'
 theme = "congo"
 
 [params]
@@ -9,18 +9,17 @@ theme = "congo"
   autoSwitchAppearance = false  
 
 [params.author]
-  name = "vinit tharwani"
-  headline = "Software Engineer"
-  bio = "Currently exploring Deep Learning and Systems Programming."
+  name = "Vinit Tharwani"
+  headline = "Research Engineer"
 
 [menu]
   [[menu.main]]
-    name = "writing"
+    name = "Writing"
     url = "/writing/"
     weight = 1
 
   [[menu.main]]
-    name = "about"
+    name = "About"
     url = "/about/"
     weight = 2
 
