@@ -1,8 +1,8 @@
-**Research Engineer**  
-Currently Exploring Multimodal Models and Representation Learning.
+**Currently Exploring**  
+Representation Learning, Multimodal Models, Sequence Modeling and Self-Supervised Learning.
 
 **Future Research Interest**  
-Computational Neuroscience and Neuroprosthetics.
+Quantitative Biology.
 
 **Links** :  
 [[Twitter]](https://twitter.com/vinittharwani)
