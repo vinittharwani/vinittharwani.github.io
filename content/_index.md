@@ -1,8 +1,8 @@
 **Currently Exploring**  
-Representation Learning, Multimodal Models, Sequence Modeling and Self-Supervised Learning.
+Representation Learning, Multimodal Models, Self-Supervised Learning and Sequence Modeling.
 
 **Future Research Interest**  
-Quantitative Biology.
+Computational Neuroscience and Neuroprosthetics.
 
 **Links** :  
 [[GitHub]](https://github.com/vinittharwani)
