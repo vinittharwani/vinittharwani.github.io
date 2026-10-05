@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vinit Tharwani</title>
+<style>
+  :root {
+    --bg: #FAF9F6;
+    --fg: #1A1A16;
+    --muted: #6B6A63;
+    --accent: #4B5D45;
+    --accent-hover: #2E3A29;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15150F;
+      --fg: #ECEAE2;
+      --muted: #9A988D;
+      --accent: #9CB68F;
+      --accent-hover: #C3D6B8;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #15150F;
+    --fg: #ECEAE2;
+    --muted: #9A988D;
+    --accent: #9CB68F;
+    --accent-hover: #C3D6B8;
+  }
+
+  html {
+    scroll-padding-top: env(safe-area-inset-top, 0px);
+  }
+
+  * { margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+    font-size: 1.15rem;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: clamp(3rem, 12vw, 7rem) 1.5rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.65rem;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+    letter-spacing: 0.01em;
+  }
+
+  p {
+    margin-bottom: 1.25rem;
+    max-width: 34rem;
+  }
+
+  p.contact {
+    margin-top: 2rem;
+    color: var(--fg);
+  }
+
+  a {
+    color: var(--fg);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  a:hover, a:focus-visible {
+    color: var(--accent-fg);
+  }
+
+  a:focus-visible {
+    outline: 2px solid var(--fg);
+    outline-offset: 2px;
+  }
+
+  .nav {
+    font-size: 0.95rem;
+    margin-bottom: 2.75rem;
+  }
+
+  .nav a {
+    color: var(--fg);
+    text-decoration: none;
+  }
+
+  .nav a:hover, .nav a:focus-visible {
+    color: var(--fg);
+    text-decoration: underline;
+  }
+
+  @media (max-width: 30rem) {
+    body { font-size: 1.05rem; }
+    .page { padding-top: 3rem; }
+  }
+    <style>
+  .bookshelf {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+  }
+  .bookshelf img {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+</style>
+
+</style>
+</head>
+<body>
+  <div class="page">
+
+<p class="nav">
+<a href="/">Vinit Tharwani</a>
+</p>
+
+    <h1>Bookshelf</h1>
+
+    <h3>Technical</h3> <br>
+   <div class="bookshelf">
+      <a href="https://openlibrary.org/isbn/9780262035613" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780262035613-M.jpg" alt="Deep Learning — Goodfellow, Bengio, Courville" title="Deep Learning — Goodfellow, Bengio, Courville" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780387848570" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780387848570-M.jpg" alt="The Elements of Statistical Learning — Hastie, Tibshirani, Friedman" title="The Elements of Statistical Learning" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780387310732" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780387310732-M.jpg" alt="Pattern Recognition and Machine Learning — Bishop" title="Pattern Recognition and Machine Learning" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9781449373320" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9781449373320-M.jpg" alt="Designing Data-Intensive Applications — Kleppmann" title="Designing Data-Intensive Applications" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780134092669" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780134092669-M.jpg" alt="Computer Systems: A Programmer's Perspective — Bryant, O'Hallaron" title="Computer Systems: A Programmer's Perspective" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780815344322" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780815344322-M.jpg" alt="Molecular Biology of the Cell — Alberts et al." title="Molecular Biology of the Cell" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780990374633" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780990374633-M.jpg" alt="Bioinformatics Algorithms — Compeau, Pevzner" title="Bioinformatics Algorithms" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780123814722" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780123814722-M.jpg" alt="Programming Massively Parallel Processors — Kirk, Hwu" title="Programming Massively Parallel Processors" loading="lazy"></a>
+      <a href="https://openlibrary.org/isbn/9780262013192" target="_blank" rel="noopener"><img src="https://covers.openlibrary.org/b/isbn/9780262013192-M.jpg" alt="Probabilistic Graphical Models — Koller, Friedman" title="Probabilistic Graphical Models" loading="lazy"></a> <br>
+
+    <h3>Other books I have read</h3> <br>
+   
+      <a href="https://www.amazon.in/Modern-Classics-Beyond-Pleasure-Principle/dp/0141184051" target="_blank" rel="noopener"><img src="covers/beyond-the-pleasure-principle.jpeg" alt="Beyond the Pleasure Principle"></a>
+    <a href="https://www.amazon.in/Modern-Classics-Civilization-Discontent-Penguin/dp/0141182369" target="_blank" rel="noopener"><img src="covers/civilization-and-its-discontents.jpeg" alt="Civilization and its Discontents"></a>
+    <a href="https://www.amazon.in/Modern-Classics-Unconscious-Penguin/dp/0141183888" target="_blank" rel="noopener"><img src="covers/the-unconscious.jpeg" alt="The Unconscious"></a>
+     
+  </div>
+</body>
+</html>
