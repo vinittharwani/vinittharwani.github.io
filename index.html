@@ -99,10 +99,43 @@
     color: var(--fg);
   }
 
+      h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--muted);
+    margin: 2.75rem 0 1.25rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.1rem;
+  }
+
+  .grid a {
+    display: block;
+    border-radius: 3px;
+    overflow: hidden;
+    transition: opacity 0.15s ease;
+  }
+
+  .grid a:hover, .grid a:focus-visible {
+    opacity: 0.8;
+  }
+
+  .grid img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+    background: var(--muted);
+  }
+
   @media (max-width: 30rem) {
     body { font-size: 1.05rem; }
     .page { padding-top: 3rem; }
   }
+
 </style>
 </head>
 <body>
@@ -124,12 +157,38 @@
    Interested in deep learning and computational neuroscience.
     </p>
 
-    <h3>Socials</h3>
+     <h3>Socials</h3>
 
     <p>
-Reach out <a href="https://x.com/vinittharwani" target="_blank" rel="noopener">@vinittharwani </a>on X.
+Links: <a href="https://x.com/vinittharwani" target="_blank" rel="noopener">Twitter</a>,
+
+    <a href="https://bsky.app/profile/vinittharwani.bsky.social" target="_blank" rel="noopener">Bluesky</a>, 
+
+   <a href="https://discord.com/users/1514238633618702338" target="_blank" rel="noopener">Discord</a>, <br>
+
+    <a href="https://youtube.com/@vinittharwani" target="_blank" rel="noopener">YouTube</a>,
+
+        <a href="https://substack.com/@vinittharwani" target="_blank" rel="noopener">Substack</a> or
+
+    <a href="https://instagram.com/vinittharwani" target="_blank" rel="noopener">Instagram</a>.
     </p>
 
-  </div>
+    <h3>Bookshelf</h3>
+
+    <div class ="grid">
+
+      <a href="https://www.amazon.in/Fall-B-K-Classics/dp/8119348273" target="_blank" rel="noopener"><img src="bookcovers/the-fall.jpeg" alt="The Fall"></a>
+
+    <a href="https://www.amazon.in/Classics-Memoirs-Dutiful-Daughter-Penguin/dp/0141185333" target="_blank" rel="noopener"><img src="bookcovers/memoirs-of-a-dutiful-daughter.jpeg" alt="Memoirs of a Dutiful Daughter"></a>
+
+    <a href="https://www.amazon.in/Modern-Classics-Unconscious-Penguin/dp/0141183888" target="_blank" rel="noopener"><img src="bookcovers/the-unconscious.jpeg" alt="The Unconscious"></a>
+
+   <a href="https://www.amazon.in/Modern-Classics-Civilization-Discontent-Penguin/dp/0141182369" target="_blank" rel="noopener"><img src="bookcovers/civilization-and-its-discontents.jpeg" alt="Civilization and its Discontents"></a>
+   <a href="https://www.amazon.in/Nausea-Penguin-Modern-Classics-Jean-Paul/dp/014118549X" target="_blank" rel="noopener"><img src="bookcovers/nausea.jpeg" alt="Nausea"></a>
+
+    <a href="https://www.amazon.in/Prime-Life-Penguin-Modern-Classics/dp/0241705398" target="_b"hlank" rel="noopener"><img src="bookcovers/the-prime-of-life.jpeg" alt="The Prime of Life"></a>
+    </div>
+
+</div>
 </body>
 </html>
