@@ -1,141 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Writing</title>
-<style>
-  :root {
-    --bg: #FAF9F6;
-    --fg: #1A1A16;
-    --muted: #6B6A63;
-    --accent: #4B5D45;
-    --accent-hover: #2E3A29;
-    --rule: rgba(0, 0, 0, 0.08);
-    box-sizing: border-box;
-    padding-top: env(safe-area-inset-top, 0px);
-    padding-bottom: env(safe-area-inset-bottom, 0px);
-  }
+<!doctype html>
+<html lang="en" class="has-particle-links">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Writing by Vinit Tharwani.">
+    <title>Writing</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/particle-links.js" defer></script>
+  </head>
 
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --bg: #15150F;
-      --fg: #ECEAE2;
-      --muted: #9A988D;
-      --accent: #9CB68F;
-      --accent-hover: #C3D6B8;
-      --rule: rgba(255, 255, 255, 0.1);
-    }
-  }
-  :root[data-theme="dark"] {
-    --bg: #15150F;
-    --fg: #ECEAE2;
-    --muted: #9A988D;
-    --accent: #9CB68F;
-    --accent-hover: #C3D6B8;
-    --rule: rgba(255, 255, 255, 0.1);
-  }
+  <body>
+    <header class="site-header">
+      <nav class="site-nav site-nav--end" aria-label="Primary navigation">
+        <a href="/">Home</a>
+      </nav>
+    </header>
 
-  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
-  * { margin: 0; padding: 0; }
-
-  body {
-    background: var(--bg);
-    color: var(--fg);
-    font-family: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
-    font-size: 1.15rem;
-    line-height: 1.75;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  .page {
-    max-width: 34rem;
-    margin: 0 auto;
-    padding: clamp(3rem, 12vw, 7rem) 1.5rem 4rem;
-  }
-
-  .nav { font-size: 0.95rem; margin-bottom: 2.75rem; }
-  .nav a { color: var(--fg); text-decoration: none; }
-  .nav a:hover, .nav a:focus-visible { color: var(--fg); }
-
-  h1 {
-    font-size: 1.65rem;
-    font-weight: 500;
-    margin-bottom: 2.25rem;
-    letter-spacing: 0.01em;
-  }
-
-  a { color: var(--fg); }
-  a:hover, a:focus-visible { color: var(--accent-fg); }
-  a:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
-
-  ul.posts { list-style: none; }
-
-  ul.posts li {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 1.25rem;
-    padding: 0.9rem 0;
-    border-bottom: 1px solid var(--rule);
-  }
-
-  ul.posts li:first-child { padding-top: 0; }
-  ul.posts li:last-child { border-bottom: none; }
-
-  ul.posts .date {
-    color: var(--fg);
-    font-size: 0.95rem;
-    white-space: nowrap;
-  }
-
-  .empty-note {
-    color: var(--fg);
-    font-size: 1rem;
-    margin-top: 0.5rem;
-  }
-
-  @media (max-width: 30rem) {
-    body { font-size: 1.05rem; }
-    .page { padding-top: 3rem; }
-    ul.posts li { flex-direction: column; gap: 0.15rem; }
-  }
-
-body {
-
-  font-size: clamp(0.813rem, 1.8vw + 0.5rem, 1.375rem);
-  line-height: 1.6;
-  }
-
-h1 {
-
-  font-size: clamp(1.5rem, 5vw + 0.5rem, 4.5rem);
-  }
-
-h2 {
-  font-size: clamp(1.25rem, 3.5vw + 0.5rem, 3rem);
-  }
-
-</style>
-</head>
-<body>
-  <div class="page">
-    <div class="nav">
-    <a href="/">Home</a> &nbsp;
-    </div>
-
-    <h3> Writing </h3> <br>
-
-
-    <div class="posts">
-
-    19/09/2026 &emsp; 
-   <a href="/writing/posts/transformers.html">Transformers</a>
-
-
-
-    </div>
-    </ul>
-  </div>
-</body>
+    <main class="writing-page">
+      <h1>Writing</h1>
+      <ol class="post-list">
+        <!-- Add new essays here, newest first. -->
+        <li class="post-row">
+          <time datetime="2026-09-20">04/09/2026</time>
+          <a href="/writing/posts/transformers.html">Transformers</a>
+        </li>
+      </ol>
+    </main>
+  </body>
 </html>
